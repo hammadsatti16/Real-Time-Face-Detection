@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "face_recog"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+opencv-python = "^4.6.0"
+Pillow = "^9.2.0"
+pybase64 = "^1.2.2"
+tensorflow = "^2.9.1"
+virtualenv = "^20.16.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
